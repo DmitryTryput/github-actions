@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class HelloController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hello2")
     public String getMessage() {
-        return "Hello World";
+        return "Hello World 2";
     }
 }
